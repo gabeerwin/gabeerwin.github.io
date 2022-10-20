@@ -19,6 +19,9 @@ I love :coffee:, :climbing:, and :musical_note:
 
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
+
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.1 0.1 0.1" gps-entity-place="longitude: 30.358930; latitude: -97.740050;" animation-mixer/>
+
         vr-mode-ui="enabled: false"
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
@@ -26,5 +29,3 @@ I love :coffee:, :climbing:, and :musical_note:
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
 </body>
-  
-  
